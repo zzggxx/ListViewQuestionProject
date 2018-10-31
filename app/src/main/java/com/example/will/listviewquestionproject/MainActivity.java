@@ -12,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ListView listView = (ListView) findViewById(R.id.list_view);
-        ImageAdapter adapter = new ImageAdapter(this, 0, Images.imageUrls);
+//        ImageAdapter adapter = new ImageAdapter(this, 0, Images.imageUrls);
+        ImageAdapter_1 adapter = new ImageAdapter_1(this, 0, Images.imageUrls);
         listView.setAdapter(adapter);
     }
 }
