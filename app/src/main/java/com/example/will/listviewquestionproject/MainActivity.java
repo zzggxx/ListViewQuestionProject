@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
         ListView listView = (ListView) findViewById(R.id.list_view);
 //        ImageAdapter adapter = new ImageAdapter(this, 0, Images.imageUrls);
-        ImageAdapter_1 adapter = new ImageAdapter_1(this, 0, Images.imageUrls);
+//        ImageAdapter_1 adapter = new ImageAdapter_1(this, 0, Images.imageUrls);
+        ImageAdapter_2 adapter = new ImageAdapter_2(this, 0, Images.imageUrls);
         listView.setAdapter(adapter);
     }
 }
